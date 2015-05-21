@@ -1,0 +1,1 @@
+cmd_/home/allen/Templates/ioctl/ioctl_basic.ko := ld -r -m elf_x86_64 -T /usr/src/kernels/3.11.10-301.fc20.x86_64/scripts/module-common.lds --build-id  -o /home/allen/Templates/ioctl/ioctl_basic.ko /home/allen/Templates/ioctl/ioctl_basic.o /home/allen/Templates/ioctl/ioctl_basic.mod.o
